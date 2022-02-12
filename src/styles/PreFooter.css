@@ -1,0 +1,102 @@
+.preFooter {
+    margin: 5vmax 0 0 0;
+    background-color: white;
+    padding: 1vmax;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.preFooter > div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgba(66, 66, 66, 0.829);
+    cursor: pointer;
+}
+
+.preFooter > div:hover svg {
+    fill: rgb(34, 34, 34);
+}
+
+.preFooter > div:hover p {
+    color: rgb(19, 18, 18);
+}
+
+.preFooter svg {
+    transform: scale(2) translateY(-0.2vmax);
+    fill: rgba(37, 37, 37, 0.322);
+    margin: 2vmax;
+}
+
+/* PreFooter2 section */
+
+.preFooter2 {
+    display: grid;
+    height: 150px;
+    grid-template-columns: repeat(4,1fr);
+    width: 80vmax;
+    margin: auto;
+}
+
+.preFooter2 > div {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1vmax;
+}
+
+.preFooter2 > div > p {
+    color: rgba(0, 0, 0, 0.842);
+    font-size: 1.1vmax;
+    width: 18vmax;
+    margin: 0;
+}
+
+.preFooter2 > div > span {
+    color: rgba(51, 51, 51, 0.842);
+    font-size: 0.8vmax;
+    width: 18vmax;
+}
+
+.preFooter2 > div > div > input {
+    border: none;
+    outline: none;
+    padding: 0.5vmax 1vmax;
+    background-color: white;
+    font-size: 1vmax;
+    width: 20.4vmax;
+}
+
+.preFooter2 > div > div > button {
+    border: none;
+    outline: none;
+    padding: 0.5vmax;
+    background-color: white;
+    color: #b0b0b0;
+    font-size: 1.2vmax;
+}
+
+.preFooter2 > div > div {
+    display: flex;
+    border: 1px solid rgba(126, 126, 126, 0.493);
+}
+
+.preFooter2 > div:nth-child(3) {
+    margin-left: 10vmax;
+}
+
+.preFooter2 > div:last-child {
+    flex-direction: row;
+}
+
+.preFooter2 > div:last-child > svg {
+    cursor: pointer;
+    margin: 1vmax;
+    fill: rgba(138, 138, 138, 0.705);
+}
+
+.preFooter2 > div:last-child > svg:hover {
+    fill: rgb(94, 94, 94);
+}

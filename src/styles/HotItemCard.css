@@ -1,0 +1,30 @@
+.hotItemCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 31%;
+    margin: 0 0 0.7vmax 0.7vmax;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.hotItemCard:hover {
+    transform: translateY(-0.4vmax);
+    box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+}
+
+.hotItemCard > img {
+    width: 70%;
+}
+
+.hotItemCard > p {
+    font-weight: bold;
+    color: rgb(85, 83, 83);
+}
+
+.hotItemCard > span {
+    margin: -1vmax 0 1vmax 0;
+    font-weight: bold;
+    color: orangered;
+}
